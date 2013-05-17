@@ -1,0 +1,10 @@
+.~lock.*
+.buildpath
+.DS_Store
+.idea
+.project
+.sass-cache
+.settings
+Thumbs.db
+tmp/
+vendor
