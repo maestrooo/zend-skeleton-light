@@ -26,6 +26,6 @@ return array(
         //'config_cache_key' => 'config_cache',
         //'module_map_cache_enabled' => true,
         //'module_map_cache_key' => 'module_map_cache',
-        //'cache_dir' => '/data/cache',
+        //'cache_dir' => __DIR__ . '/../data/cache',
     ),
 );
