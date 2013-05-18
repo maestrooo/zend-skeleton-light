@@ -18,6 +18,7 @@ if (!isset($loader)) {
 }
 
 /* @var $loader \Composer\Autoload\ClassLoader */
+$loader->add('Application\\', __DIR__ . '/../src');
 $loader->add('ApplicationTest\\', __DIR__);
 
 if (file_exists(__DIR__ . '/TestConfiguration.php')) {
