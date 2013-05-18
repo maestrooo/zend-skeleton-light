@@ -3,7 +3,6 @@
 use ApplicationTest\Util\ServiceManagerFactory;
 
 ini_set('error_reporting', E_ALL);
-var_dump(getcwd());
 
 $files = array(getcwd() . '/../../vendor/autoload.php', getcwd() . '/../../autoload.php');
 
