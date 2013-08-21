@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6a773a30c9de7074ca56de12926c3a08",
+    "hash": "8778e443e6a917c19017ad6a1d63b1fc",
     "packages": [
         {
             "name": "zendframework/zendframework",
-            "version": "2.2.0",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "release-2.2.0"
+                "reference": "7469e0ca45e55f6179cea109e7d4e210ba9b2b10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/release-2.2.0",
-                "reference": "release-2.2.0",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/7469e0ca45e55f6179cea109e7d4e210ba9b2b10",
+                "reference": "7469e0ca45e55f6179cea109e7d4e210ba9b2b10",
                 "shasum": ""
             },
             "require": {
@@ -59,6 +59,7 @@
                 "zendframework/zend-permissions-acl": "self.version",
                 "zendframework/zend-permissions-rbac": "self.version",
                 "zendframework/zend-progressbar": "self.version",
+                "zendframework/zend-resources": "self.version",
                 "zendframework/zend-serializer": "self.version",
                 "zendframework/zend-server": "self.version",
                 "zendframework/zend-servicemanager": "self.version",
@@ -78,7 +79,7 @@
                 "doctrine/annotations": ">=1.0",
                 "ircmaxell/random-lib": "dev-master",
                 "ircmaxell/security-lib": "dev-master",
-                "ocramius/proxy-manager": "0.3.*",
+                "ocramius/proxy-manager": "0.4.*",
                 "phpunit/phpunit": "3.7.*"
             },
             "suggest": {
@@ -90,7 +91,9 @@
                 "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
             },
             "bin": [
-                "bin/classmap_generator.php"
+                "bin/classmap_generator.php",
+                "bin/pluginmap_generator.php",
+                "bin/templatemap_generator.php"
             ],
             "type": "library",
             "extra": {
@@ -101,8 +104,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Zend\\": "library/",
-                    "ZendTest\\": "tests/"
+                    "Zend\\": "library/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -115,7 +117,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2013-05-15 10:27:32"
+            "time": "2013-07-24 14:02:19"
         }
     ],
     "packages-dev": [
