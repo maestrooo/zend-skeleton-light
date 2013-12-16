@@ -4,7 +4,7 @@ use ApplicationTest\Util\ServiceManagerFactory;
 
 ini_set('error_reporting', E_ALL);
 
-$files = array(getcwd() . '/../../vendor/autoload.php', getcwd() . '/../../autoload.php');
+$files = [getcwd() . '/../../vendor/autoload.php', getcwd() . '/../../autoload.php'];
 
 foreach ($files as $file) {
     if (file_exists($file)) {

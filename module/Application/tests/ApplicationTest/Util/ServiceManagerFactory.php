@@ -36,7 +36,7 @@ class ServiceManagerFactory
     {
         $serviceManager = new ServiceManager(
             new ServiceManagerConfig(
-                isset(static::$config['service_manager']) ? static::$config['service_manager'] : array()
+                isset(static::$config['service_manager']) ? static::$config['service_manager'] : []
             )
         );
         $serviceManager->setService('ApplicationConfig', static::$config);
